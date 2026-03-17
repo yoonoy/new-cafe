@@ -66,7 +66,7 @@ The player can:
 ## Assets Credits
 
 * Godot XR tools
-* *3D models from Sketchfab
+* 3D models from Sketchfab
 * Music from Safari
 
 
