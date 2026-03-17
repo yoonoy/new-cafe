@@ -30,7 +30,9 @@ The player can:
 ---
 
 ## Screenshots
-![Gameplay Screenshot](screenshots/Screenshot%202026-03-17%20at%2020.19.04.png)
+![Screenshot 1](screenshots/Screenshot%202026-03-17%20at%2020.19.04.png)
+![Screenshot 2](screenshots/Screenshot%202026-03-17%20at%2020.19.16.png)
+![Screenshot 3](screenshots/Screenshot%202026-03-17%20at%2020.19.47.png)
 
 
 ---
