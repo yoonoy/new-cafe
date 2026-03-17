@@ -2,9 +2,9 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b7d7mb3dubuio"
-path.s3tc="res://.godot/imported/uu5_mface.png-4acaf82f588a686d81a496bb420719fa.s3tc.ctex"
-path.etc2="res://.godot/imported/uu5_mface.png-4acaf82f588a686d81a496bb420719fa.etc2.ctex"
+uid="uid://ur6qwdaigix"
+path.s3tc="res://.godot/imported/Cup_scrats.png-6e54bdd4a29e31e220eb4a846c8303b6.s3tc.ctex"
+path.etc2="res://.godot/imported/Cup_scrats.png-6e54bdd4a29e31e220eb4a846c8303b6.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -13,8 +13,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://uu5_mface.png"
-dest_files=["res://.godot/imported/uu5_mface.png-4acaf82f588a686d81a496bb420719fa.s3tc.ctex", "res://.godot/imported/uu5_mface.png-4acaf82f588a686d81a496bb420719fa.etc2.ctex"]
+source_file="res://MainScene/Cup_scrats.png"
+dest_files=["res://.godot/imported/Cup_scrats.png-6e54bdd4a29e31e220eb4a846c8303b6.s3tc.ctex", "res://.godot/imported/Cup_scrats.png-6e54bdd4a29e31e220eb4a846c8303b6.etc2.ctex"]
 
 [params]
 
@@ -22,12 +22,12 @@ compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/normal_map=0
+compress/normal_map=1
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
-roughness/mode=0
-roughness/src_normal=""
+roughness/mode=1
+roughness/src_normal="res://Cup_scrats.png"
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/normal_map_invert_y=false

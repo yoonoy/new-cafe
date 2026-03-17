@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bvnth5kxaqpa1"
-path="res://.godot/imported/cozy_morning_in_a_cafe__3d_editor_challenge.glb-25706041f0dd49cb4a9ec8409935d9a1.scn"
+path="res://.godot/imported/cozy_morning_in_a_cafe__3d_editor_challenge.glb-c4dc5bb2f126a4e4ddae59943cef4210.scn"
 
 [deps]
 
-source_file="res://cozy_morning_in_a_cafe__3d_editor_challenge.glb"
-dest_files=["res://.godot/imported/cozy_morning_in_a_cafe__3d_editor_challenge.glb-25706041f0dd49cb4a9ec8409935d9a1.scn"]
+source_file="res://MainScene/cozy_morning_in_a_cafe__3d_editor_challenge.glb"
+dest_files=["res://.godot/imported/cozy_morning_in_a_cafe__3d_editor_challenge.glb-c4dc5bb2f126a4e4ddae59943cef4210.scn"]
 
 [params]
 

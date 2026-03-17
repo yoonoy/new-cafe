@@ -11,9 +11,9 @@ config_version=5
 [application]
 
 config/name="newcafe"
-run/main_scene="res://node_3d.tscn"
+run/main_scene="res://XRController/node_3d.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://MainScene/icon.svg"
 
 [autoload]
 
@@ -31,4 +31,5 @@ textures/vram_compression/import_etc2_astc=true
 [xr]
 
 openxr/enabled=true
+openxr/default_action_map="res://XRController/openxr_action_map.tres"
 shaders/enabled=true

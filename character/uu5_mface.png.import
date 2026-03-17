@@ -2,9 +2,9 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cb0d066p7b0iq"
-path.s3tc="res://.godot/imported/uu5_mskin2.png-443f4f13df1fdf798d17fe1d00ec7e6c.s3tc.ctex"
-path.etc2="res://.godot/imported/uu5_mskin2.png-443f4f13df1fdf798d17fe1d00ec7e6c.etc2.ctex"
+uid="uid://b7d7mb3dubuio"
+path.s3tc="res://.godot/imported/uu5_mface.png-83a4cc4e11deb874ed5fba55c6efc815.s3tc.ctex"
+path.etc2="res://.godot/imported/uu5_mface.png-83a4cc4e11deb874ed5fba55c6efc815.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -13,8 +13,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://uu5_mskin2.png"
-dest_files=["res://.godot/imported/uu5_mskin2.png-443f4f13df1fdf798d17fe1d00ec7e6c.s3tc.ctex", "res://.godot/imported/uu5_mskin2.png-443f4f13df1fdf798d17fe1d00ec7e6c.etc2.ctex"]
+source_file="res://character/uu5_mface.png"
+dest_files=["res://.godot/imported/uu5_mface.png-83a4cc4e11deb874ed5fba55c6efc815.s3tc.ctex", "res://.godot/imported/uu5_mface.png-83a4cc4e11deb874ed5fba55c6efc815.etc2.ctex"]
 
 [params]
 

@@ -2,9 +2,9 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://2248suptsgya"
-path.s3tc="res://.godot/imported/cozy_morning_in_a_cafe__3d_editor_challenge_1.png-053c3d73e04a2edb4725ff86bf88c89f.s3tc.ctex"
-path.etc2="res://.godot/imported/cozy_morning_in_a_cafe__3d_editor_challenge_1.png-053c3d73e04a2edb4725ff86bf88c89f.etc2.ctex"
+uid="uid://b4qydctvdjn48"
+path.s3tc="res://.godot/imported/waitress_mface.png-240aeefef072b34dc2f8275155a398f8.s3tc.ctex"
+path.etc2="res://.godot/imported/waitress_mface.png-240aeefef072b34dc2f8275155a398f8.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -13,8 +13,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://cozy_morning_in_a_cafe__3d_editor_challenge_1.png"
-dest_files=["res://.godot/imported/cozy_morning_in_a_cafe__3d_editor_challenge_1.png-053c3d73e04a2edb4725ff86bf88c89f.s3tc.ctex", "res://.godot/imported/cozy_morning_in_a_cafe__3d_editor_challenge_1.png-053c3d73e04a2edb4725ff86bf88c89f.etc2.ctex"]
+source_file="res://character/waitress_mface.png"
+dest_files=["res://.godot/imported/waitress_mface.png-240aeefef072b34dc2f8275155a398f8.s3tc.ctex", "res://.godot/imported/waitress_mface.png-240aeefef072b34dc2f8275155a398f8.etc2.ctex"]
 
 [params]
 

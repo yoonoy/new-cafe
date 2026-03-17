@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dfwqy4p5nyksa"
-path="res://.godot/imported/uu5.glb-a29be2390c496fce8bff4d93f7e17527.scn"
+path="res://.godot/imported/waitress.glb-ddeba2bb12c9538c1c0475ffef666fa1.scn"
 
 [deps]
 
-source_file="res://uu5.glb"
-dest_files=["res://.godot/imported/uu5.glb-a29be2390c496fce8bff4d93f7e17527.scn"]
+source_file="res://character/waitress.glb"
+dest_files=["res://.godot/imported/waitress.glb-ddeba2bb12c9538c1c0475ffef666fa1.scn"]
 
 [params]
 

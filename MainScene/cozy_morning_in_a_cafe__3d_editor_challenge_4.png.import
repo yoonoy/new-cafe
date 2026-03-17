@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdy27v05kdtrd"
-path.s3tc="res://.godot/imported/cozy_morning_in_a_cafe__3d_editor_challenge_4.png-10a91f94874019c0dc751a5815bd2635.s3tc.ctex"
-path.etc2="res://.godot/imported/cozy_morning_in_a_cafe__3d_editor_challenge_4.png-10a91f94874019c0dc751a5815bd2635.etc2.ctex"
+path.s3tc="res://.godot/imported/cozy_morning_in_a_cafe__3d_editor_challenge_4.png-ea02178ea7264aba08b0e04a50785117.s3tc.ctex"
+path.etc2="res://.godot/imported/cozy_morning_in_a_cafe__3d_editor_challenge_4.png-ea02178ea7264aba08b0e04a50785117.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -13,8 +13,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://cozy_morning_in_a_cafe__3d_editor_challenge_4.png"
-dest_files=["res://.godot/imported/cozy_morning_in_a_cafe__3d_editor_challenge_4.png-10a91f94874019c0dc751a5815bd2635.s3tc.ctex", "res://.godot/imported/cozy_morning_in_a_cafe__3d_editor_challenge_4.png-10a91f94874019c0dc751a5815bd2635.etc2.ctex"]
+source_file="res://MainScene/cozy_morning_in_a_cafe__3d_editor_challenge_4.png"
+dest_files=["res://.godot/imported/cozy_morning_in_a_cafe__3d_editor_challenge_4.png-ea02178ea7264aba08b0e04a50785117.s3tc.ctex", "res://.godot/imported/cozy_morning_in_a_cafe__3d_editor_challenge_4.png-ea02178ea7264aba08b0e04a50785117.etc2.ctex"]
 
 [params]
 

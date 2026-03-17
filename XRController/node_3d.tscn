@@ -1,0 +1,88 @@
+[gd_scene load_steps=15 format=3 uid="uid://lmscpvmwh5np"]
+
+[ext_resource type="Script" path="res://MainScene/Main.gd" id="1_2ijcr"]
+[ext_resource type="PackedScene" uid="uid://bvnth5kxaqpa1" path="res://MainScene/cozy_morning_in_a_cafe__3d_editor_challenge.glb" id="1_tl4cb"]
+[ext_resource type="PackedScene" uid="uid://2aumxbq1dpaq" path="res://XRController/xr_origin.tscn" id="2_fggay"]
+[ext_resource type="PackedScene" uid="uid://t8yxiy13nacd" path="res://pickableObjects/pickable_object.tscn" id="4_7jxxj"]
+[ext_resource type="PackedScene" uid="uid://1g7r8mwd7n3q" path="res://pickableObjects/pickable2.tscn" id="5_dsq76"]
+[ext_resource type="PackedScene" uid="uid://1rp86i26x4ft" path="res://pickableObjects/mug_-_cup.glb" id="6_hrfiw"]
+[ext_resource type="PackedScene" uid="uid://dfwqy4p5nyksa" path="res://character/waitress.glb" id="7_nssmo"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_5koou"]
+sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+
+[sub_resource type="Sky" id="Sky_abju2"]
+sky_material = SubResource("ProceduralSkyMaterial_5koou")
+
+[sub_resource type="Environment" id="Environment_x2532"]
+background_mode = 2
+sky = SubResource("Sky_abju2")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1qnov"]
+size = Vector3(1200, 0.1, 1200)
+
+[sub_resource type="BoxMesh" id="BoxMesh_5xkvt"]
+size = Vector3(1200, 0.1, 1200)
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_fgtnn"]
+height = 0.348
+radius = 18.682
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_kb3h2"]
+bottom_radius = 18.72
+
+[node name="Node3D" type="Node3D"]
+script = ExtResource("1_2ijcr")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_x2532")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+shadow_enabled = true
+
+[node name="mainScene" parent="." instance=ExtResource("1_tl4cb")]
+transform = Transform3D(200, 0, 0, 0, 200, 0, 0, 0, 200, 78.0045, -71.1038, 119.506)
+
+[node name="Cup_002_6_15" parent="mainScene/Sketchfab_model/root/GLTF_SceneRootNode/Sketchfab_model_0/root_1/GLTF_SceneRootNode_2" index="6"]
+transform = Transform3D(0.14242, 0, 0.989806, 0, 1, 0, -0.989806, 0, 0.14242, 1.13913, 0.774669, -1.02298)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -283.886, -58.9921, -416.8)
+shape = SubResource("BoxShape3D_1qnov")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D/CollisionShape3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.0582428, 0)
+mesh = SubResource("BoxMesh_5xkvt")
+
+[node name="XROrigin3D" parent="." instance=ExtResource("2_fggay")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -10.9404, 86, -219.918)
+
+[node name="StaticBody3D2" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D2"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 63.8369, 74.8946, -214.905)
+shape = SubResource("CylinderShape3D_fgtnn")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D2/CollisionShape3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.00793, 0.60902)
+mesh = SubResource("CylinderMesh_kb3h2")
+
+[node name="PickableObject" parent="." instance=ExtResource("4_7jxxj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.49703, 79.9079, -239.996)
+
+[node name="PickableObject2" parent="." instance=ExtResource("5_dsq76")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.27365, 79.9629, -233.002)
+
+[node name="cup" parent="." instance=ExtResource("6_hrfiw")]
+transform = Transform3D(70, 0, 0, 0, 70, 0, 0, 0, 70, 12.9748, 80.5566, -243.298)
+
+[node name="waitress" parent="." instance=ExtResource("7_nssmo")]
+transform = Transform3D(2.09892, 0.136531, -9.77629, -0.155222, 9.99823, 0.106305, 9.77601, 0.129437, 2.10067, -166.429, -36.991, -344.165)
+
+[editable path="mainScene"]
