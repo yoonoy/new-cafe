@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://lmscpvmwh5np"]
+[gd_scene load_steps=17 format=3 uid="uid://lmscpvmwh5np"]
 
 [ext_resource type="Script" path="res://MainScene/Main.gd" id="1_2ijcr"]
 [ext_resource type="PackedScene" uid="uid://bvnth5kxaqpa1" path="res://MainScene/cozy_morning_in_a_cafe__3d_editor_challenge.glb" id="1_tl4cb"]
@@ -7,6 +7,8 @@
 [ext_resource type="PackedScene" uid="uid://1g7r8mwd7n3q" path="res://pickableObjects/pickable2.tscn" id="5_dsq76"]
 [ext_resource type="PackedScene" uid="uid://1rp86i26x4ft" path="res://pickableObjects/mug_-_cup.glb" id="6_hrfiw"]
 [ext_resource type="PackedScene" uid="uid://dfwqy4p5nyksa" path="res://character/waitress.glb" id="7_nssmo"]
+[ext_resource type="PackedScene" uid="uid://clujaf3u776a3" path="res://addons/godot-xr-tools/objects/viewport_2d_in_3d.tscn" id="8_8w3ow"]
+[ext_resource type="PackedScene" uid="uid://s5slgh57evqo" path="res://control.tscn" id="9_qejb8"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_5koou"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -61,7 +63,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.0582428, 0)
 mesh = SubResource("BoxMesh_5xkvt")
 
 [node name="XROrigin3D" parent="." instance=ExtResource("2_fggay")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -10.9404, 86, -219.918)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -10.9404, 78.338, -219.918)
 
 [node name="StaticBody3D2" type="StaticBody3D" parent="."]
 
@@ -80,9 +82,19 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.49703, 79.9079, -239.996)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.27365, 79.9629, -233.002)
 
 [node name="cup" parent="." instance=ExtResource("6_hrfiw")]
-transform = Transform3D(70, 0, 0, 0, 70, 0, 0, 0, 70, 12.9748, 80.5566, -243.298)
+transform = Transform3D(30, 0, 0, 0, 30, 0, 0, 0, 30, 12.9748, 80.5566, -243.298)
 
 [node name="waitress" parent="." instance=ExtResource("7_nssmo")]
 transform = Transform3D(2.09892, 0.136531, -9.77629, -0.155222, 9.99823, 0.106305, 9.77601, 0.129437, 2.10067, -166.429, -36.991, -344.165)
+
+[node name="Viewport2Din3D" parent="." instance=ExtResource("8_8w3ow")]
+transform = Transform3D(-0.199993, 0, 0.00165107, 0, 0.2, 0, -0.00165107, 0, -0.199993, -51.2556, 189.841, -66.3846)
+screen_size = Vector2(1280, 768)
+scene = ExtResource("9_qejb8")
+viewport_size = Vector2(1200, 650)
+transparent = 2
+alpha_scissor_threshold = 0.553
+unshaded = true
+scene_properties_keys = PackedStringArray()
 
 [editable path="mainScene"]
