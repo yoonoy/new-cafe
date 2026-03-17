@@ -8,7 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://1rp86i26x4ft" path="res://pickableObjects/mug_-_cup.glb" id="6_hrfiw"]
 [ext_resource type="PackedScene" uid="uid://dfwqy4p5nyksa" path="res://character/waitress.glb" id="7_nssmo"]
 [ext_resource type="PackedScene" uid="uid://clujaf3u776a3" path="res://addons/godot-xr-tools/objects/viewport_2d_in_3d.tscn" id="8_8w3ow"]
-[ext_resource type="PackedScene" uid="uid://s5slgh57evqo" path="res://HUD/control.tscn" id="9_qejb8"]
+[ext_resource type="PackedScene" uid="uid://tpdxmqft7w7k" path="res://HUD/control.tscn" id="9_qejb8"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_5koou"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
