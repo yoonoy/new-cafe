@@ -67,7 +67,8 @@ The player can:
 
 * Godot XR tools
 * *3D models from Sketchfab
-*** Music from Safari
+* Music from Safari
+
 
 ## Downloads
 
