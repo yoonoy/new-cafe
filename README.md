@@ -67,4 +67,8 @@ The player can:
 
 * Godot XR tools
 
+## Downloads
+
+Get the APK here: [VR Cafe Simulator v0.1-alpha](https://github.com/yoonoy/new-cafe/releases/download/v0.1-alpha/VR_Cafe_Simulator_v0.1-alpha.apk)
+
 
